@@ -12,8 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-
+ 
 icon: 🔥 # the emoji used as the favicon
 url:  
 baseurl: 
@@ -46,8 +45,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: davidjuliancaldwell
 gitlab_username: # your GitLab user name
 twitter_username: djcald
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+linkedin_username: davidjuliancaldwell
+scholar_userid: https://scholar.google.com/citations?user=KqhyR3QAAAAJ&hl=en
 orcid_id: 0000-0002-3179-5171
 medium_username: # your Medium username
 quora_username: # your Quora username
