@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://neurosurgery.ucsf.edu/">Affiliations</a>.
+description: <a href="https://neurosurgery.ucsf.edu/">Incoming UCSF neurosurgery resident</a> | MD, PhD from University of Washington MSTP and Bioengineering | BME, MSE through University of Michigan Biomedical Engineering
 
 profile:
   align: right
@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an incoming neurosurgery resident at UCSF, who completed my MD/PhD at the University of Washington through the MSTP program in 2021. Prior to this, I obtained my BSE and MSE in biomedical engineering at the University of Michigan. 
+I am an incoming neurosurgery resident at UCSF, who completed my MD and PhD at the University of Washington through the MSTP program in 2021. Prior to this, I obtained my BSE and MSE in biomedical engineering at the University of Michigan. 
 
 My PhD was in bioengineering in the laboratories of Dr. Jeffrey Ojemann in the department of Neurosurgery and Dr. Rajesh Rao from the department of Computer Science and Engineering. My PhD research work focused on engineering direct electrical stimulation of human sensorimotor cortex. To do this, I worked with patients that are implanted with electrodes in their brains for clinical care of epilepsy and movement disorders such as Parkinson’s and Essential Tremor. 
 
