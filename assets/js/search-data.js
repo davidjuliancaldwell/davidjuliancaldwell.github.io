@@ -434,11 +434,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%64%61%76%69%64%6A%75%6C%69%61%6E%63%61%6C%64%77%65%6C%6C %61%74 %67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("https://scholar.google.com/citations?user=KqhyR3QAAAAJ&hl=en", "_blank");
         },
       },{
         id: 'social-github',
@@ -448,13 +448,6 @@ ninja.data = [{
           window.open("https://github.com/davidjuliancaldwell", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/davidjuliancaldwell", "_blank");
-        },
-      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
@@ -462,18 +455,18 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0002-3179-5171", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-email',
+        title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=KqhyR3QAAAAJ&hl=en", "_blank");
+          window.open("mailto:%64%61%76%69%64%6A%75%6C%69%61%6E%63%61%6C%64%77%65%6C%6C %61%74 %67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-x',
-        title: 'X',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/djcald", "_blank");
+          window.open("https://www.linkedin.com/in/davidjuliancaldwell", "_blank");
         },
       },{
       id: 'light-theme',
