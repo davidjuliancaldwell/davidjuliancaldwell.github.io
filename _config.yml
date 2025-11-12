@@ -2,24 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+title: David Caldwell, MD, PhD
+first_name: David
+middle_name: Julian
+last_name: Caldwell
+email: davidjuliancaldwell '@' gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+ 
+icon: 🧠 # the emoji used as the favicon
+url:  davidjuliancaldwell.github.io # the base hostname & protocol for your site without a trailing slash (e.g., https://example.com)
+baseurl: 
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -71,22 +67,32 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+github_username: davidjuliancaldwell
+gitlab_username: # your GitLab user name
+twitter_username: djcald
+linkedin_username: davidjuliancaldwell
+scholar_userid: https://scholar.google.com/citations?user=KqhyR3QAAAAJ&hl=en
+orcid_id: 0000-0002-3179-5171
+medium_username: # your Medium username
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+research_gate_profile: # your profile on ResearchGate
+blogger_url: # your blogger URL
+work_url: # work page URL
+keybase_username: # your keybase user name
+wikidata_id: # your wikidata id
 
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+contact_note: >
+#  You can even add a little note about which of these is the best way to reach you.
+
+google_analytics: UA-XXXXXXXXX # out your google-analytics code
+panelbear_analytics: F2GWX5YrQ87 # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: # al-folio  # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -149,9 +155,13 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
+    permalink: /news/:path/
   projects:
-    output: true
+    output: false
+    permalink: /projects/:path/
+
+news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -264,8 +274,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+
+  last_name: Caldwell
+  first_name: [David, J.]
 
   style: apa
   locale: en
