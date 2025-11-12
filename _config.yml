@@ -67,26 +67,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-github_username: davidjuliancaldwell
-gitlab_username: # your GitLab user name
-twitter_username: djcald
-linkedin_username: davidjuliancaldwell
-scholar_userid: https://scholar.google.com/citations?user=KqhyR3QAAAAJ&hl=en
-orcid_id: 0000-0002-3179-5171
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-
 contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: F2GWX5YrQ87 # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
