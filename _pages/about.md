@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: '<a href="https://neurosurgery.ucsf.edu/">UCSF neurosurgery</a> | <a href="http://mstp.washington.edu/">UW MSTP MD</a>, <a href="http://bioe.uw.edu/">PhD BIOE</a> | <a href="http://bme.umich.edu/">BSE, MSE Umich BME</a>'
+description: "UCSF neurosurgery | UW MSTP MD, PhD BIOE | BSE, MSE Umich BME"
+subtitle: '<a href="https://neurosurgery.ucsf.edu/">UCSF neurosurgery</a> | <a href="http://mstp.washington.edu/">UW MSTP MD</a>, <a href="http://bioe.uw.edu/">PhD BIOE</a> | <a href="http://bme.umich.edu/">BSE, MSE Umich BME</a>'
 
 profile:
   align: right
