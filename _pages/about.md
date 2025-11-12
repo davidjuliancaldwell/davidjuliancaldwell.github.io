@@ -8,18 +8,22 @@ subtitle: '<a href="https://neurosurgery.ucsf.edu/">UCSF neurosurgery</a> | <a h
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  image_circular: true # crops the image to make it circular
+  more_info: >
     <p>San Francisco, CA</p>
-#    <p>123 your address street</p>
-#    <p>Your City, State 12345</p>
+
+  address: >
+
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a neurosurgery resident at UCSF, who completed my MD and PhD at the University of Washington through the MSTP program in 2021. Prior to this, I obtained my BSE and MSE in biomedical engineering at the University of Michigan. 
+I am currently a neurosurgery resident at UCSF. My current clinical and research interests are at the intersection of functional neurosugery, neurotrauma, and neurocritical care. I have been funded during residency through the NIH UE5 program, mentored by Dr. Edward Chang and Dr. Geoff Manley in the Department of Neurological surgery, with a focus on the analysis of intracranial electrophysiology in the setting of severe traumatic brain injury. I have been fortunate to also work with Dr. Edilberto Amorim in the Department of Neurology on this project, as well as with Dr. Jon Kleen in the department of Neurology on the impact of re-referencing distance on intracranial electrophysiologic signal measurements. 
 
-My PhD was in bioengineering in the laboratories of Dr. Jeffrey Ojemann in the department of Neurosurgery and Dr. Rajesh Rao from the department of Computer Science and Engineering. My PhD research work focused on engineering direct electrical stimulation of human sensorimotor cortex. To do this, I worked with patients that are implanted with electrodes in their brains for clinical care of epilepsy and movement disorders such as Parkinson’s and Essential Tremor. 
+I completed my completed my MD and PhD at the University of Washington through the MSTP program in 2021. Prior to this, I obtained my BSE and MSE in Biomedical Engineering at the University of Michigan. 
 
-Going forward, I seek to advance the interface of neurosurgery and engineering. 
+I completed my PhD in the Department of Bioengineering in the laboratories of Dr. Jeffrey Ojemann (Neurosurgery) and Dr. Rajesh Rao (Computer Science and Engineering). My PhD research work focused on engineering direct electrical stimulation of human sensorimotor cortex. To do this, I worked with patients that are implanted with electrodes in their brains for clinical care of epilepsy and movement disorders such as Parkinson’s and Essential Tremor. 
+
+
